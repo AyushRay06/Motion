@@ -1,5 +1,6 @@
 import { Heading } from "./_components/Heading"
 import { Heros } from "./_components/Heros"
+import { Footer } from "./_components/Footer"
 
 const MarketingPage = () => {
   return (
@@ -8,6 +9,7 @@ const MarketingPage = () => {
         <Heading />
         <Heros />
       </div>
+      <Footer />
     </div>
   )
 }
